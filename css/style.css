@@ -1,3 +1,330 @@
-body {
-	font-family: sans-serif;
+*{
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #333533;
+}
+section{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	overflow: auto;
+}
+h2{
+	color: #242423;
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+}
+h3{
+	color: #333533;
+	font-size: 28px;
+}
+h4{
+	color: #333533;
+	font-weight: bold;
+	font-size: 15px;
+}
+h5{
+	font-size: 15px;
+	color: #A4A4A4;
+}
+p{
+	font-size: 18px;
+}
+.float-left{
+	float: left;
+}
+.container{
+	padding-right: 70px;
+    padding-left: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* MENU 1*/
+.nav1{
+	background-color: #242423;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.logo{
+	margin-left: 30px;
+}
+nav ul li a{
+	color: #F5CB5C;
+	padding: 0 5px;
+	font-weight: 700;
+}
+li{
+	float: left;
+	list-style-type: none;
+}
+.menu{
+	color: #F5CB5C;
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+	margin-top: 19px;
+}
+
+.about{
+	background: #CFDBD5;
+	font-color: #333533;	
+}
+.about-detail{
+	margin-top: 60px;
+}
+.about-text{
+	width: 800px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+}
+.about-text-detail{
+	width: 800px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.div-imagen-profile{
+	margin: 0 20px;
+}
+.imagen-profile{
+	border-radius: 50%;
+}
+.div-detail-about{
+	margin-left: 8px;
+}
+.boton-amarillo{
+	display: inline-block;
+	clear: both;
+	border: 1px solid #F5CB5C;
+	background-color: #F5CB5C;
+	padding: 7px;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.skills{
+	background: #E8EDDF;
+}
+.bullets{
+	color: #333533;
+	font-size: 15px;
+	font-style: italic;
+	clear: both;
+	padding-left: 0px;
+}
+.bullets li{
+	background-color: #CFDBD5;
+    display: inline-block;
+    padding: 1px 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+.div-contenedor{
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: block;
+	margin: auto;
+}
+.article-skill{
+	margin: 0 10px;
+	width: 250px;
+}
+
+.education{
+	background: #CFDBD5;
+	color: #333533;
+}
+.education article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 150px;
+    width: 30%;
+}
+.fecha{
+	font-size: 13px;
+}
+.education article div h4{
+	font-size: 21px;
+}
+.experience{
+	background: #E8EDDF;
+	color: #333533;
+}
+.experience article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 150px;
+    width: 30%;
+}
+.experience article div h4{
+	font-size: 21px;
+}
+.experience article div p{
+	font-size: 12px;
+}
+
+.portfolio{
+	background: #CFDBD5;
+	color: #333533;
+}
+.portfolio div{
+	margin-top: 20px;
+}
+.portfolio div article{
+	width: 22%;
+	float: left;
+	padding: 10px;
+}
+.portfolio div article p{
+	text-align: center;
+	padding-top: 5px;
+	font-size: 14px;
+}
+.portfolio div article div{
+	width: 50%;
+}
+.contact{
+	background: #E8EDDF;
+	color: #333533;
+}
+/*.form{
+	border-top-style: solid;
+    border-top-color: #EEEEEE;
+    border-top-width: 1px;
+    padding-top: 2%;
+}*/
+.form-input{
+	width: 100%;
+	background-color: transparent;
+    border: 0px solid;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 4%;
+}
+.div-form{
+	float: left;
+	width: 45%;
+	margin: 10px;
+	height: 200px;
+}
+.form-contenedor{
+	display: block;
+	margin-top: 20px;
+}
+.boton-form{
+	display: block;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.redes{
+	background:#242423;
+	color:#F5CB5C;
+	font-size: 20px;
+	font-style: italic;
+	padding-top: 10px;
+	width: 50%;
+}
+.iconos{
+	font-size: 40px;
+	color: #F5CB5C;
+}
+.redes li a{
+	color: #F5CB5C;
+}
+.redes li{
+	margin: 5px;
+	width: 14%;
+	text-align: center;
+}
+
+footer{
+	background-color: #242423;
+	height: 70px;
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
+
+@media (max-width: 900px){
+	.about-text{
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+	}
+	.about-text-detail{
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+	.education article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 100px;
+    width: 100%;
+	}
+	.experience article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 100px;
+    width: 100%;
+	}
+	.portfolio div article{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	}
+	.div-form{
+	float: left;
+	width: 50%;
+	margin: 10px;
+	height: 100px;
+	}
+	.div-form-2{
+	margin-bottom: 60px;
+	}
+	.iconos{
+	font-size: 25px;
+	color: #F5CB5C;
+	}
+	.redes li{
+	margin: 5px;
+	width: 8%;
+	text-align: center;
+	}
 }
